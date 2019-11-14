@@ -17,13 +17,13 @@ The program is set up on Sam's Google Cloud platform account, contact him at sam
 
 RNAStructure is a perl (.PL) file that takes the input file (the one you just uploaded) as its first argument and the output file as its second argument. Assuming you did everything in step 1 correctly you should have no problem running this. One thing we've noticed is that the sequence(s) in your file need to be all uppercase, pattern matching issues arise with lowercase characters. 
 
-You'll need to also specify the output file. You can call this whatever you want, as long as it has a .csv extension. If you type a file that already exists on the machine, it will be overwritten, otherwise the filename you typed will be created.
+You'll need to also specify the output file. You can call this whatever you want as long as it has a .csv extension. If you type a file that already exists on the machine, it will be overwritten, otherwise the file you type will be created.
 
 To run the program type `perl ASOproj.PL <your-uploaded-file-name>.fasta <your-output-file>.csv`
 
 ### Step 3) Download the output
 
-Again if you're using an ssh client this will be different, but if you're using Sam's CGP account follow the steps below:
+Again if you're using an ssh client this will be different, but if you're using Sam's CGP account do the following:
 
 Click the Gear icon in the top right -> Download File
 it will ask you for the fully qualified file path, in our case that path is `/home/sbarkal/ASOproj/<your-output-file>.csv`
