@@ -26,7 +26,7 @@ To run the program type `perl ASOproj.PL <your-uploaded-file-name>.fasta <your-o
 Again if you're using an ssh client this will be different, but if you're using Sam's CGP account follow the steps below:
 
 Click the Gear icon in the top right -> Download File
-it will ask you for the fully qualified file path, in this location that path is `/home/sbarkal/ASOproj/<your-output-file>.csv`
+it will ask you for the fully qualified file path, in our case that path is `/home/sbarkal/ASOproj/<your-output-file>.csv`
 The download should proceed as it does when you download other files with your browser. 
 
 ### Step 4) Shut down the instance
