@@ -25,10 +25,14 @@ To run the program type `perl ASOproj.PL <your-uploaded-file-name>.fasta <your-o
 
 Again if you're using an ssh client this will be different, but if you're using Sam's CGP account follow the steps below:
 
-1) Click the Gear icon in the top right -> Download File
+Click the Gear icon in the top right -> Download File
 it will ask you for the fully qualified file path, in this location that path is `/home/sbarkal/ASOproj/<your-output-file>.csv`
 The download should proceed as it does when you download other files with your browser. 
 
 #### Step 4) Shut down the instance
 
-If you're doing multiple .fasta files 
+If you're doing multiple .fasta files you don't need to follow this step after each run, only after you're done with the program. This is really inportant becuase the machine is billed by the minute of use. 
+
+To do this, exit the terminal window, and go back to the google cloud dashboard. You should see a bar titled 'instance-1' with a green mark next to it. On the far right, next to `ssh` clich the three vertical dots and select stop. The green icon will turn gray and start spinning indicating it's shutting down, but don't leave until it's stopped to ensure it shut down correctly. 
+
+Contact me with any issues or concerns at jamesdavidfife@gmail.com 
