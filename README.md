@@ -20,3 +20,15 @@ RNAStructure is a perl (.PL) file that takes the input file (the one you just up
 You'll need to also specify the output file. You can call this whatever you want, as long as it has a .csv extension. If you type a file that already exists on the machine, it will be overwritten, otherwise the filename you typed will be created.
 
 To run the program type `perl ASOproj.PL <your-uploaded-file-name>.fasta <your-output-file>.csv`
+
+#### Step 3) Download the output
+
+Again if you're using an ssh client this will be different, but if you're using Sam's CGP account follow the steps below:
+
+1) Click the Gear icon in the top right -> Download File
+it will ask you for the fully qualified file path, in this location that path is `/home/sbarkal/ASOproj/<your-output-file>.csv`
+The download should proceed as it does when you download other files with your browser. 
+
+#### Step 4) Shut down the instance
+
+If you're doing multiple .fasta files 
