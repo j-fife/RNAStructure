@@ -19,7 +19,7 @@ RNAStructure is a perl (.PL) file that takes the input file (the one you just up
 
 You'll need to also specify the output file. You can call this whatever you want as long as it has a .csv extension. If you type a file that already exists on the machine, it will be overwritten, otherwise the file you type will be created.
 
-To run the program type `perl ASOproj.PL <your-uploaded-file-name>.fasta <your-output-file>.csv`
+To run the program type `perl ASOproject.PL <your-uploaded-file-name>.fasta <your-output-file>.csv`
 
 ### Step 3) Download the output
 
